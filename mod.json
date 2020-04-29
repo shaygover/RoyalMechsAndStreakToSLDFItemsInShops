@@ -1,0 +1,18 @@
+{
+    "Name": "RoyalMechsAndStreakToSLDFItemsInShops",
+    "Enabled": true,
+    
+    "DependsOn": ["SLDFItemsInShops",
+                "RoyalMechs",
+                "StreakMissileLaunchers"],
+
+    "Version": "0.1.0",
+    "Description": "Adds RoyalMechs mod mechs and StreakMissileLaunchers weapons to SLDFItemsInShops",
+    "Author": "tharbad08",
+    "Website": "",
+    "Contact": "Use github Issues",
+
+    "Manifest": [
+        { "Type": "ItemCollectionDef", "Path": "items", "ShouldAppendText": true }
+    ]
+} 
